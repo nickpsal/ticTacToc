@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
 						alert("Game is already over");
 						return;
 					}
+					
 					if (button.innerText === "Click") {
 						button.innerText = currentPlayer;
 						button.disabled = true;
