@@ -14,11 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
 		gameOver = false;
 		currentPlayer = playerX;
 
-		document.getElementById("current-player").innerHTML =
-			"Current Player: " + currentPlayer;
-		document.getElementById(
-			"scoreboard"
-		).innerHTML = `Player1 (X): ${playerXScore} | Player2 (O): ${playerOScore}`;
+		document.getElementById("current-player").innerHTML = "Current Player: " + currentPlayer;
+		document.getElementById("scoreboard").innerHTML = `Player1 (X): ${playerXScore} | Player2 (O): ${playerOScore}`;
 
 		const rows = [1, 2, 3];
 		const cols = [1, 2, 3];
